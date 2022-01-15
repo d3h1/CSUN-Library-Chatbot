@@ -1,0 +1,43 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello Matador!", "Hi Matador!", "Hi there matador!"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Where are you?", "Where are you located?", "Where is the library?" ],
+     "responses": ["Your CSUN Librarian is located on campus", "We are located at 18111 Nordhoff St, Northridge, CA 91330"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?, What are you"],
+    "responses": ["You can call me Carla the CSUN librarian.", "I'm Carla, the CSUN librarian!", "Just call me Carla"]
+    }, 
+    {"tag": "help",
+    "patterns": ["Can you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how I can assist you", "Tell me your problems...", "Yes Sure, How can I support you?!"]
+    },
+    {"tag": "checkout",
+    "patterns": ["I need to checkout a book", "how do I check out a book?", "I want to check out a book", "How can I check this out?", "how can I leave with this book?"],
+    "responses": ["You can just easily check this out online at CSUNLibrary.com", "We just need your student ID and you can check this out on the CSUN website "]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us with your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "awkward",
+      "patterns": ["ok", "alright", "well ok then", "okay"],
+      "responses": ["is there anything else I can help you with?", "If you need help with anything else please ask.", "Need any more help?"]
+    },
+  {"tag": "small talk",
+    "patterns": ["How are you?", "I am alright thank you for asking", "Long day, and you?"],
+    "responses": ["I am good thank you for asking. How can I help?", "Good, thanks. How can I help?", "Thank you for asking how I can I help you?"]
+  }
+]
+}
